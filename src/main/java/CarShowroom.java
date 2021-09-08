@@ -6,7 +6,6 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class CarShowroom {
     private static final int THREAD_TIMEOUT = 2500;
-    private static final int NEW_CLIENT_TIMEOUT = 1000;
 
     private List<Car> cars = new ArrayList<>(10);
 
